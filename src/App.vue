@@ -1,5 +1,6 @@
 <template>
-  <nav class="bg-darkBlue py-2 flex justify-between px-6">
+<div>
+    <nav class="bg-darkBlue py-2 flex justify-between px-6">
     <h1 class="text-2xl text-white">Logo</h1>
     <div class="text-white">
       <router-link to="/" class="px-4">Home</router-link>
@@ -38,8 +39,8 @@
           aria-labelledby="dropdownDefaultButton"
         >
           <li>
-            <router-link to="/petaView"  href="#"
-              class="block px-4 py-2 text-white hover:bg-purple2 dark:hover:bg-purple2 dark:hover:text-white">Materi 1
+            <router-link to="/sistem-operasi"  href="#"
+              class="block px-4 py-2 text-white hover:bg-purple2 dark:hover:bg-purple2 dark:hover:text-white">Materi 1: Sistem Operasi
             </router-link>
           </li>
           <li>
@@ -55,6 +56,8 @@
     </div>
   </nav>
   <router-view />
+</div>
+  
 </template>
 
 <style>

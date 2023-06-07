@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../Views/BerandaView.vue'
 import petaView from '../Views/petaView.vue'
-
+import sistemoperasi from '../Views/sistem-operasi.vue'
 const routes = [
   {
     path: '/',
@@ -13,6 +13,11 @@ const routes = [
     name: 'petaView',
     component: petaView
   },
+  {
+    path:'/sistem-operasi',
+    name:'sistem-operasi',
+    component: sistemoperasi
+  }
   // {
   //   path: '/about',
   //   name: 'about',
