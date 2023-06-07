@@ -146,6 +146,10 @@
           <h1 class="font-bold">MS DOS</h1>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At eius, libero facilis asperiores animi repudiandae, iusto labore dolore vel molestias ipsum soluta esse ullam vitae vero obcaecati dolor quo nemo.</p>
         </div>
+        <div class="bg-purple text-center w-80 p-8 rounded-2xl m-4">
+          <h1 class="font-bold">MS DOS</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At eius, libero facilis asperiores animi repudiandae, iusto labore dolore vel molestias ipsum soluta esse ullam vitae vero obcaecati dolor quo nemo.</p>
+        </div>
       </div>
     </div>
     <Footer />
